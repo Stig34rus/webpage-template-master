@@ -1,4 +1,56 @@
 noscript
     p Please enable Javascript
-    
 header.header
+  .container-fluid
+    .container.header__top
+      .row
+        .col-7
+          .header__menu.d-flex.align-items-end.justify-content-start
+            .header__location
+            select.header__city
+              option(value="0") Москва
+              option(value="1") Самара
+              option(value="2") Волгоград
+            a.header__phone(href="tel:666666")
+        .col-10
+          h2.header__title
+            span.header__title_bolder DET
+            span.header__title_bold SK
+            span IY
+        .col-7
+          .header__menu.d-flex.flex-wrap.justify-content-around
+            a.header__menu-item.header__menu-search(href="#")
+            a.header__menu-item.header__menu-account(href="#")
+            a.header__menu-item.header__menu-orders(href="#")
+            a.header__menu-item.header__menu-favorites(href="#")
+            a.header__menu-item.header__menu-bag(href="#")
+  .container-fluid.bg_grey
+    .container
+      nav.w-100.d-flex.flex-wrap.justify-content-around.navbar.navbar-expand-lg
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+          i.fa.fa-bars
+        #navbarNav.collapse.navbar-collapse
+          ul.header__navigation.navbar-nav.d-flex.flex-wrap.justify-content-around
+            li
+              a(href="#") Одежда и обувь
+            li
+              a(href="#") Игрушки
+            li
+              a(href="#") Гигиена и питание
+            li
+              a(href="#") Спорт и отдых
+            li
+              a(href="#") Коляски
+            li
+              a(href="#") Автокресла
+            li
+              a(href="#") Детская мебель
+            li
+              a(href="#") школа
+            li
+              a(href="#") творчество
+            li
+              a(href="#") бренды
+            li
+              a(href="#") распродажа
+            

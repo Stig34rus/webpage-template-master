@@ -1,8 +1,27 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-R.ttf);
+}
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url(fonts/Ubuntu-M.ttf);
+}
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url(fonts/Ubuntu-B.ttf);
+}
+
 *{
+    font-family: Ubuntu;
     box-sizing: border-box;
 }
 
 body{
     margin: 0px;
     padding: 0px;
+}
+
+.bg_grey{
+  border: 1px solid #eeeeee;
+  background-color: #fafafa;
 }

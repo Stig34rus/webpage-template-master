@@ -1,0 +1,80 @@
+.header{
+  height: 113px;
+}
+.header__top{
+  padding-top: 31px;
+  padding-bottom: 20px;
+}
+.header__title{
+  color: #333333;
+  font-family: Ubuntu;
+  font-size: 59px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 0.8;
+}
+.header__title_bolder{
+  font-family: Ubuntu-Bold;
+}
+.header__title_bold{
+  font-family: Ubuntu-Medium;
+}
+.header__menu{
+  height: 100%;
+}
+.header__city{
+  display: block;
+  width: 68px;
+  font-size: 12px;
+  margin-left: 10px;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  background: url("img/down-arrow.png") 96% no-repeat / 8px 3px;
+}
+.header__location{
+  width: 13px;
+  height: 18px;
+  background: url("img/location.png") no-repeat center / contain;
+}
+.header__phone{
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin-left: 20px;
+  background: url("img/phone.png") no-repeat center / contain;
+}
+.header__menu-item{
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+.header__menu-search{
+  background: url("img/search.png") no-repeat center / contain;
+}
+.header__menu-account{
+  background: url("img/account.png") no-repeat center / contain;
+}
+.header__menu-orders{
+  background: url("img/orders.png") no-repeat center / contain;
+}
+.header__menu-bag{
+  background: url("img/shopping-bag.png") no-repeat center / contain;
+}
+.header__menu-favorites{
+  background: url("img/favorites.png") no-repeat center / contain;
+}
+.header__navigation{
+  color: #000;
+  font-family: "Open Sans - Semibold";
+  font-size: 13px;
+  text-transform: uppercase;
+  width: 100%;
+  list-style: none;
+  padding: 15px 0;
+  margin: 0;
+}
